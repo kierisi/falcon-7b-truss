@@ -1,7 +1,0 @@
-import baseten
-import truss
-
-falcon_truss = truss.load('.')
-baseten.deploy(falcon_truss,
-               model_name = 'acoustic-caracal',
-               publish = False)
