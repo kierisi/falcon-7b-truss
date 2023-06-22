@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, pipeline
 from typing import Dict
 
 CHECKPOINT = "tiiuae/falcon-7b-instruct"
-DEFAULT_MAX_LENGTH = 128
-DEFAULT_TOP_P = 0.95
+DEFAULT_MAX_LENGTH = 250
+DEFAULT_TOP_P = 0.65
 
 
 class Model:
