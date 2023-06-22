@@ -4,4 +4,4 @@ import truss
 falcon_truss = truss.load('.')
 baseten.deploy(falcon_truss,
                model_name = 'falcon-7b-demo',
-               publish = False)
+               publish = True)
