@@ -1,0 +1,3 @@
+import baseten
+model = baseten.deployed_model_id('VBnwG20')
+print(model.predict({"prompt": "Write a movie plot about falcons planning to over the world", "do_sample": True, "max_new_tokens": 300}))
